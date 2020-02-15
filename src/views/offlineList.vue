@@ -37,7 +37,7 @@ export default {
     };
   },
   async created() {
-    this.songList = JSON.parse(window.localStorage.getItem("bzsongs-offline") || []);
+    this.songList = JSON.parse(window.localStorage.getItem("bzsongs-offline") || "[]");
     window.song  = this.songList;
     this.selectedSong = this.songList[0] || {};
     this.loc = "filesystem:" + window.location.origin + "/persistent/songs/";

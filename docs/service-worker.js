@@ -1,4 +1,4 @@
-importScripts("/zsongs/precache-manifest.ed92342a9f07264265883f61e73c546a.js", "/zsongs/workbox-v3.6.3/workbox-sw.js");
+importScripts("/zsongs/precache-manifest.507e395966ada9637b220b5e8f1f324e.js", "/zsongs/workbox-v3.6.3/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/zsongs/workbox-v3.6.3"});
 // workbox.core.skipWaiting();
 // workbox.core.clientsClaim();
