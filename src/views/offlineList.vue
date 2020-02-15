@@ -9,7 +9,7 @@
         class="btn btn-primary px-1 py-1"
         style="font-size:12px"
         @click="$refs.fileinput.click()"
-      >directory</div>
+      >files</div>
       <input
         type="file"
         style="display:none;"
@@ -80,11 +80,11 @@ export default {
       );
       window.fs = fs;
       let files = event.target.files;
-      fs.root.getDirectory(
+      await new Promise(resolve =>fs.root.getDirectory(
         "songs",
         { create: true, exclusive: false },
-        console.log
-      );
+        resolve
+      ));
       let writingpromises = [];
       for (let i = 0; i < files.length; i++) {
         let file = files[i];
