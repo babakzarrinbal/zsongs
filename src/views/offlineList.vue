@@ -21,7 +21,7 @@
     </div>
     <audio class="w-100 d-block" :src="loc + selectedSong.name" controls ref="audioEl"></audio>
     <div class="list" >
-      <div class="song my-2 py-2 text-center bg-light clickable" v-for="(s,i) in songList" :key="i" @click="changeSong(s)">{{s.title}}</div>
+      <div class="song my-2 py-2 text-center bg-light clickable"  v-for="(s,i) in songList" :key="i" @click="changeSong(s)">{{s.title}}</div>
     </div>
   </div>
 </template>
@@ -48,13 +48,13 @@ export default {
       console.log(s);
       if (!s) return;
       window.webkitStorageInfo.requestQuota(
-        window.PERSISTENT,
+        window.PERSISTENT || window.LocalFileSystem.PERSISTENT,
         1024 * 1024 * s,
         () => {
           this.$root.getStorageInfo();
           if (this.$root.storeTotal) return;
           (window.requestFileSystem || window.webkitRequestFileSystem)(
-            window.PERSISTENT,
+            window.PERSISTENT || window.LocalFileSystem.PERSISTENT,
             1024 * 1024 * this.$root.storeTotal,
             fs =>
               fs.root.getDirectory(
@@ -72,7 +72,7 @@ export default {
     async addSongs(event) {
       let fs = await new Promise(resolve =>
         (window.requestFileSystem || window.webkitRequestFileSystem)(
-          window.PERSISTENT,
+          window.PERSISTENT || window.LocalFileSystem.PERSISTENT,
           1024 * 1024 * (this.$root.storeTotal - this.$root.storeUsed),
           fs => ((this.loc = fs.root.toURL() + "songs/"), resolve(fs)),
           () => window.alert("error getting sotrage!!!")
