@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "3a1311d5e71f7d0d9cf75005f1992426",
-    "url": "/zsongs/img/ttsicons/next.svg"
+    "revision": "2d862f5aaa34fed9e533fbfc84d4080e",
+    "url": "/zsongs/img/ttsicons/pause-w.svg"
   },
   {
     "revision": "536ef82528266ef7716cc76f13c960e4",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/zsongs/js/chunk-vendors.7ede2da3.js"
   },
   {
-    "revision": "36414da8709e534ab651802365b9a9d6",
+    "revision": "160f3c316f7188c6c0a3cf6e598e5c18",
     "url": "/zsongs/index.html"
   },
   {
@@ -32,44 +32,48 @@ self.__precacheManifest = [
     "url": "/zsongs/img/ttsicons/settings.svg"
   },
   {
-    "revision": "ce554f9aa15080bcf5d30af0549b0779",
-    "url": "/zsongs/img/ttsicons/refresh.svg"
-  },
-  {
-    "revision": "d8f8be8601d46e34d280ea4e44a5be1d",
-    "url": "/zsongs/img/loaders/puff.svg"
+    "revision": "8181039b61cfc565659fa059c039e706",
+    "url": "/zsongs/img/ttsicons/plus.svg"
   },
   {
     "revision": "e3eca74d0d77d7299725c27949c59ebd",
     "url": "/zsongs/img/loaders/rings.svg"
   },
   {
-    "revision": "f7caff4f185c623ba45c02ab832f9c1f",
-    "url": "/zsongs/img/ttsicons/bookmark.svg"
+    "revision": "d8f8be8601d46e34d280ea4e44a5be1d",
+    "url": "/zsongs/img/loaders/puff.svg"
   },
   {
-    "revision": "20ca233e48ad5b5a127f6f1d86a4e4ef",
-    "url": "/zsongs/img/ttsicons/minus.svg"
+    "revision": "f7caff4f185c623ba45c02ab832f9c1f",
+    "url": "/zsongs/img/ttsicons/bookmark.svg"
   },
   {
     "revision": "783c7836eb439161b1f9fa84430c7bf9",
     "url": "/zsongs/img/ttsicons/list.svg"
   },
   {
+    "revision": "3a1311d5e71f7d0d9cf75005f1992426",
+    "url": "/zsongs/img/ttsicons/next.svg"
+  },
+  {
+    "revision": "20ca233e48ad5b5a127f6f1d86a4e4ef",
+    "url": "/zsongs/img/ttsicons/minus.svg"
+  },
+  {
     "revision": "85a5675b8b7737090914d26418d8175d",
     "url": "/zsongs/img/ttsicons/next-w.svg"
   },
   {
-    "revision": "2d862f5aaa34fed9e533fbfc84d4080e",
-    "url": "/zsongs/img/ttsicons/pause-w.svg"
-  },
-  {
-    "revision": "c16eb9355b3c48660ccc",
-    "url": "/zsongs/js/app.0604c296.js"
+    "revision": "a5382166a7bb4fc5a50c",
+    "url": "/zsongs/js/app.87799b36.js"
   },
   {
     "revision": "14b4111eac1e3e8aeaaee5e2d9685dc6",
     "url": "/zsongs/img/ttsicons/pause.svg"
+  },
+  {
+    "revision": "eb811774ab3b6bec73673e8ec3c24105",
+    "url": "/zsongs/img/ttsicons/play-w.svg"
   },
   {
     "revision": "6ee7698493609851c684cc8b560084a7",
@@ -80,12 +84,8 @@ self.__precacheManifest = [
     "url": "/zsongs/img/ttsicons/play.svg"
   },
   {
-    "revision": "eb811774ab3b6bec73673e8ec3c24105",
-    "url": "/zsongs/img/ttsicons/play-w.svg"
-  },
-  {
-    "revision": "8181039b61cfc565659fa059c039e706",
-    "url": "/zsongs/img/ttsicons/plus.svg"
+    "revision": "ce554f9aa15080bcf5d30af0549b0779",
+    "url": "/zsongs/img/ttsicons/refresh.svg"
   },
   {
     "revision": "39153b06929a746eee884dd665ab0dc8",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/zsongs/css/chunk-vendors.d000a27d.css"
   },
   {
-    "revision": "c16eb9355b3c48660ccc",
+    "revision": "a5382166a7bb4fc5a50c",
     "url": "/zsongs/css/app.15c3fab9.css"
   }
 ];

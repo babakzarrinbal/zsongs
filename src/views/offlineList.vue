@@ -12,11 +12,12 @@
       >directory</div>
       <input
         type="file"
-        multiple
         style="display:none;"
         ref="fileinput"
         @change="addSongs($event)"
         webkitdirectory="true"
+        multiple="true"
+        directory
       />
     </div>
     <audio class="w-100 d-block" :src="loc + selectedSong.name" controls ref="audioEl"></audio>
